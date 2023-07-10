@@ -1,0 +1,84 @@
+.banner {
+    background-image: url("./images/banner/banner1.png");
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    border: 2px solid black;
+    margin-top: 2px;
+}
+
+.header-text-container {
+    text-align: right;
+    padding: 216px 230px 166px 0px;
+}
+
+.header-heading {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+
+.header-para {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.header-button {
+
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 600;
+
+}
+
+/*section one style*/
+
+.sec-one {
+    width: 1600px;
+    height: 2000px;
+    padding-top: 140px;
+}
+
+.sec-one-div-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-one-image {
+    height: 700px;
+    width: 530px;
+    
+}
+
+.sec-one-text {
+    padding-right:250px;
+    padding-top: 200px;
+}
+
+.sec-one-header {
+color:#151414;
+font-size: 40px;
+font-weight: 700;
+width: 288px;
+}
+
+.sec-one-paragraph {
+color:#444343;
+font-size: 16px;
+font-weight: 400;
+font-weight: 400;
+width: 416px;
+}   
+.checkbox {
+color:#444343;
+font-size: 16px;
+font-weight: 400;
+
+
+}
