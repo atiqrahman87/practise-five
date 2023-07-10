@@ -41,44 +41,145 @@
 
 .sec-one {
     width: 1600px;
-    height: 2000px;
+    height: 1800px;
     padding-top: 140px;
 }
 
 .sec-one-div-container {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 210px;
+
 }
 
 .sec-one-image {
     height: 700px;
     width: 530px;
-    
+
 }
 
 .sec-one-text {
-    padding-right:250px;
+    padding-right: 250px;
     padding-top: 200px;
 }
 
 .sec-one-header {
-color:#151414;
-font-size: 40px;
-font-weight: 700;
-width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
 }
 
 .sec-one-paragraph {
-color:#444343;
-font-size: 16px;
-font-weight: 400;
-font-weight: 400;
-width: 416px;
-}   
-.checkbox {
-color:#444343;
-font-size: 16px;
-font-weight: 400;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 400;
+    width: 416px;
+}
 
+.checkbox {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.heading-second {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 230px;
+    padding-right: 229px;
+}
+
+.mindset {
+    background-image: url("./images/gradient2.png"), url("./images/watch.png");
+    background-blend-mode: lighten;
+    width: 1140px;
+    height: 300px;
+    margin: 130px 230px;
+}
+
+.first-div{
+    text-indent: 64px;
+}
+.final-para {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    text-indent: 64px;
+}
+
+.sec-btn {
+    border-radius: 5px;
+    background: #FFF;
+    width: 160px;
+    height: 64px;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.footer{
+    width: 1600px;
+    height: 577px;
+    display:flex;
+    background:#151414;
+
+
+}
+.footer-heading{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-para{
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;  
+}
+.footer-email{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;  
+}
+.footer-phone {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;  
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    color:white;
+
+}
+.go{
+    margin-top:130px;
+    margin-left:230px;
+}
+.last-class{
+    margin-bottom:52px;
+    width:300px;
+    height:40px;
+    background-color:black;
+    border: 2px solid white;
+}
+.last-btn{
+width: 170px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
 
 }
